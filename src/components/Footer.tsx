@@ -1,4 +1,4 @@
-import { Instagram, Mail, Globe } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 
 const Footer = () => {
   const links = [
@@ -11,11 +11,6 @@ const Footer = () => {
       icon: Mail,
       label: "Email",
       href: "mailto:info@hostswhobuild.com",
-    },
-    {
-      icon: Globe,
-      label: "Website",
-      href: "https://hostswhobuild.com",
     },
   ];
 

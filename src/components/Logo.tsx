@@ -6,7 +6,7 @@ const Logo = () => {
       <img 
         src={logoImage} 
         alt="Hosts Who Build" 
-        className="h-20 md:h-24 w-auto"
+        className="h-32 md:h-40 lg:h-44 w-auto object-contain"
       />
     </div>
   );

@@ -2,8 +2,8 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header className="w-full py-6 px-6 md:py-8">
-      <div className="max-w-4xl mx-auto flex justify-center">
+    <header className="w-full pt-8 px-6 md:pt-12 lg:pt-16 pb-0">
+      <div className="max-w-5xl mx-auto flex justify-center">
         <Logo />
       </div>
     </header>
